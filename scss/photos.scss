@@ -1,0 +1,56 @@
+.photos{
+    width: 100%;
+}
+
+.photo_blocks{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+    .photo_block{
+        width: 25%;
+        height: 350px;
+        border: 1px solid white;
+        transition: all 0.3s ease;
+        position: relative;
+        .photo_img{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(250, 0, 0, 0.5);
+            color: #ffff;
+            font-family: 'Raleway', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.25s;
+            .title-mini{
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .subtitle-mini{
+                font-size: 14px;
+                line-height: 1.2;
+                font-weight: 400;
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
+        
+    }
+    
+}
+
+

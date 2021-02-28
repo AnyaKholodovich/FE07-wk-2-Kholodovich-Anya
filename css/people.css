@@ -1,0 +1,63 @@
+.people {
+  width: 100%;
+}
+
+.people_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.people_cards-item {
+  width: 210px;
+  flex-direction: column;
+}
+
+.people_img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.people_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2d3033;
+  margin-bottom: 15px;
+}
+
+.people_subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #e84545;
+}
+
+.people_text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #6c7279;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.people_icon {
+  display: flex;
+  flex-direction: row;
+}
+.people_icon .people_icon-item {
+  border: 1px solid #e8ecee;
+  color: #c6cacc;
+  font-size: 20px;
+  padding: 13px;
+  width: 40px;
+  height: 40px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

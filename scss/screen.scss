@@ -1,0 +1,45 @@
+.screen {
+width: 100%;
+background-image: url("/img/bc.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+padding-bottom: 156px;
+}
+.screen_title {
+    padding-top: 256px;
+    margin-bottom: 40px;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: seashell;
+    text-transform: uppercase;
+}
+.screen_subtitle{
+    margin-bottom: 77px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: seashell;
+    text-transform: uppercase;
+}
+.contact_download{
+font-size: 13px;
+text-align: center;
+display: block;
+margin: auto;
+padding-bottom: 156px;
+width: 200px;
+padding: 18px 0;
+color: seashell;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+background-color: #E84545;
+border-radius: 2px;
+transition: 0.2s;
+cursor: pointer;
+}
