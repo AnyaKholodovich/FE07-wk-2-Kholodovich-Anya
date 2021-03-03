@@ -1,0 +1,59 @@
+.contacts {
+  width: 100%;
+  background-color: #3a3e64;
+}
+.contacts .contacts_title {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contacts .contacts_subtitle {
+  margin-top: 16px;
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.contacts .blocks {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 90px;
+}
+.contacts .blocks .location {
+  margin-top: 70px;
+  max-width: 200px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.contacts .blocks .network {
+  margin-top: 70px;
+  max-width: 200px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.contacts .blocks .network .network_icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+.contacts .blocks .network .network_icons .network_icons-item {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 13px;
+  width: 40px;
+  height: 40px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts .blocks .contacts_activebox {
+  margin-top: 70px;
+  max-width: 400px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}

@@ -1,3 +1,14 @@
-$(document).ready(function()) {
-    $('.slider_blocks').slick();
-};
+$(document).ready(function(){
+    $('.slider_blocks').slick({
+        arrows:false,
+        dots:true,
+        slidesToShow:1,
+        adaptiveHeight:true,
+        speed:1000,
+        infinit:true,
+        autoplay:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        appendDots:$('.slider_block-text'),
+    });
+});

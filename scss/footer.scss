@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    background-color: #313454;
+    .footer-text{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 350px;
+    }
+    .footer_span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #808080;
+    }
+    .footer_heart{
+        width: 14px;
+        height: 14px;
+    }
+    .footer_span-active{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #fff;
+    }
+}
