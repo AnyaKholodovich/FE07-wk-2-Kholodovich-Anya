@@ -1,7 +1,10 @@
 .download{
     width: 100%;
+    .download_block{
+        align-items: center;
+    }
     .download_title{
-        margin-top: 50px;
+        margin-top: 100px;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         text-align: center;
@@ -9,6 +12,9 @@
         line-height: 21px;
         font-weight: 400;
         color: #2d3033;
+        @media (max-width:680px){
+            font-size: 20px;   
+        }
     }
     .download_span{
         display: block;
@@ -28,7 +34,6 @@
         display: block;
         margin: auto;
         margin-bottom: 100px;
-        padding-bottom: 156px;
         width: 280px;
         padding: 18px 0;
         color: seashell;

@@ -28,10 +28,17 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    width: 12px;
     opacity: 0.2;
     border: 1px;
     background-color: #ffffff;
+    @media (max-width:940px){
+        width: 10px;
+        height: 10px; 
+    }
+    @media (max-width:610px){
+        width: 8px;
+        height: 8px; 
+    }
     
 }
 .slider_blocks .slick-dots li.slick-active button{
@@ -50,16 +57,51 @@
     padding-left: 80px;
     padding-top: 140px;
     background-color:#53354a;
+    @media (max-width:1200px) {
+    padding-left: 60px;
+    padding-top: 60px;    
+    }
+    @media (max-width:940px) {
+    padding-left: 30px;
+    padding-top: 30px;    
+    }
+    @media (max-width:680px){
+    padding-left: 20px;
+    padding-top: 20px; 
+    }
+    @media (max-width:610px){
+        padding-left: 15px;
+        padding-top: 10px;    
+    }
 }
 .slider-text{
     font-family: 'Cardo', serif;
     width: 500px;
     font-size: 36px;
-    line-height: 42px;
     font-weight: 400;
     font-style: italic;
     color: #ffffff;
     margin-bottom: 30px;
+    @media (max-width:940px){
+    font-size: 24px;  
+    width: 400px;
+    margin-bottom: 16px;
+    }
+    @media (max-width:830px){
+    width: 330px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    }
+    @media (max-width:680px){
+        width: 270px;
+        font-size: 18px;
+        margin-bottom: 8px;   
+    }
+    @media (max-width:610px){
+        width: 270px;
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
 }
 .slider-span{
     font-family: 'Raleway', sans-serif;
@@ -68,4 +110,12 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
+    @media (max-width:940px){
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.5;
+    }
+    @media (max-width:610px){
+        font-size: 10px;
+    }
 }

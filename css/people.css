@@ -7,11 +7,14 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 100px;
+  margin: 0 -15px;
 }
 
 .people_cards-item {
   width: 210px;
   flex-direction: column;
+  margin: 0 15px;
+  margin-bottom: 30px;
 }
 
 .people_img {

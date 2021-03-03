@@ -20,12 +20,15 @@
         display: flex;
         justify-content: space-around;
         padding-bottom: 90px;
+        flex-wrap: wrap;
         .location{
+            
             margin-top: 70px;
             max-width: 200px;
             text-align: center;
             font-family: 'Raleway', sans-serif;
         }
+
         .network{
             margin-top: 70px;
             max-width: 200px;
@@ -53,7 +56,10 @@
             margin-top: 70px;
             max-width: 400px;
             text-align: center;
-            font-family: 'Raleway', sans-serif;   
+            font-family: 'Raleway', sans-serif;
+            @media (max-width:1200px) {
+                max-width: 200px;
+            }   
         }
     }
 }

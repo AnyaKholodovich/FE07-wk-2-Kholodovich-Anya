@@ -16,6 +16,14 @@ padding-bottom: 156px;
     text-align: center;
     color: seashell;
     text-transform: uppercase;
+    @media (max-width:810px){
+        padding-top: 200px;
+        margin-bottom: 0;
+    }
+    @media (max-width:610px){
+        padding-top: 150px;
+        font-size: 55px; 
+    }
 }
 .screen_subtitle{
     margin-bottom: 77px;
@@ -25,6 +33,11 @@ padding-bottom: 156px;
     font-family: 'Raleway', sans-serif;
     color: seashell;
     text-transform: uppercase;
+    @media (max-width:810px){
+        width: 80%;
+        text-align: center;
+        margin: 40px auto;
+    }
 }
 .contact_download{
 font-size: 13px;

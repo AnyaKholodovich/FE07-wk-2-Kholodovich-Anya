@@ -5,8 +5,8 @@
 .photo_blocks {
   display: flex;
   align-content: space-around;
-  flex-wrap: wrap;
   margin-bottom: 140px;
+  flex-wrap: wrap;
 }
 .photo_blocks .photo_block {
   width: 25%;
@@ -15,10 +15,23 @@
   transition: all 0.3s ease;
   position: relative;
 }
+@media (max-width: 1200px) {
+  .photo_blocks .photo_block {
+    width: 50%;
+  }
+}
+@media (max-width: 560px) {
+  .photo_blocks .photo_block {
+    width: 100%;
+  }
+}
 .photo_blocks .photo_block .photo_img {
   width: 100%;
   height: 100%;
   display: block;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .photo_blocks .photo_block .text {
   position: absolute;

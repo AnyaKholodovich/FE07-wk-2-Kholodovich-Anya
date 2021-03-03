@@ -21,6 +21,7 @@
   display: flex;
   justify-content: space-around;
   padding-bottom: 90px;
+  flex-wrap: wrap;
 }
 .contacts .blocks .location {
   margin-top: 70px;
@@ -56,4 +57,9 @@
   max-width: 400px;
   text-align: center;
   font-family: "Raleway", sans-serif;
+}
+@media (max-width: 1200px) {
+  .contacts .blocks .contacts_activebox {
+    max-width: 200px;
+  }
 }
