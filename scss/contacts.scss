@@ -17,24 +17,28 @@
         color: #ffffff;
     }
     .blocks{
+        width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        padding-top: 90px;
         padding-bottom: 90px;
         flex-wrap: wrap;
+
         .location{
-            
-            margin-top: 70px;
-            max-width: 200px;
+            width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
         }
 
         .network{
-            margin-top: 70px;
-            max-width: 200px;
+            width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
+            
+            
             .network_icons{
+                justify-content: center;
+                width: 100%;
                 display: flex;
                 flex-direction: row;
                 margin-top: 16px;
@@ -53,8 +57,8 @@
             }
         }
         .contacts_activebox{
-            margin-top: 70px;
-            max-width: 400px;
+            justify-content: flex-end;
+            width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
             @media (max-width:1200px) {
