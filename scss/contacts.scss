@@ -23,20 +23,23 @@
         padding-top: 90px;
         padding-bottom: 90px;
         flex-wrap: wrap;
-
         .location{
             width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
+            @media (max-width:800px) {
+            padding: 30px 0px;      
+            }
         }
-
         .network{
             width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
-            
-            
-            .network_icons{
+            @media (max-width: 800px) {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+                .network_icons{
                 justify-content: center;
                 width: 100%;
                 display: flex;
@@ -61,10 +64,13 @@
             width: 33.3%;
             text-align: center;
             font-family: 'Raleway', sans-serif;
-            @media (max-width:1200px) {
-                max-width: 200px;
+            @media (max-width: 800px) {
+                margin-bottom: 30px;
             }   
         }
+        // @media (max-width:800px) {
+        // flex-wrap: wrap;       
+        // }
     }
 }
 
